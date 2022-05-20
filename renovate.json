@@ -2,6 +2,7 @@
   "extends": [
     "config:base"
   ],
+  "masterIssue": true,
   "automerge": true,
   "automergeType": "branch",
   "rebaseWhen": "auto",
