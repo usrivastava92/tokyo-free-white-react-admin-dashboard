@@ -1,33 +1,5 @@
 {
   "extends": [
     "config:base"
-  ],
-  "masterIssue": true,
-  "automerge": true,
-  "automergeType": "branch",
-  "rebaseWhen": "auto",
-  "packageRules": [
-    {
-      "excludePackagePatterns": [
-      ],
-      "enabled": true
-    },
-    {
-      "matchUpdateTypes": [
-        "major",
-        "minor",
-        "patch",
-        "pin",
-        "digest"
-      ],
-      "automerge": true
-    },
-    {
-      "matchDepTypes": [
-        "devDependencies"
-      ],
-      "automerge": true
-    }
-  ],
-  "requiredStatusChecks": null
+  ]
 }
